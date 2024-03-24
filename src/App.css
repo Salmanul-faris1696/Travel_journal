@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0;
+    /* font-family: 'Poppins',sans-serif; */
+  }
+
+  .main--div{
+
+    width: 600px;
+    margin: 100px;
+    margin-left: 200px;
+  }
+
+  nav{
+    display: flex;
+    padding: 20px 36px ;
+    height: 70px;
+    box-shadow: 0px 2.98px 7.46px rgba(0, 0, 0, 0.1) ;
+    background-color: #F55A5A;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+  }
+
+.img--div{
+    /* position: absolute;
+    left: 25%;
+    top: %; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav--img{
+    height: 50px;
+}
+.nav--head{
+    color: #ffff;
+}
+
+section{
+    padding: 20px;
+}
+.hero--section{
+    display: flex;
+    box-shadow: 0px 8.98px 7.46px rgba(0, 0, 0, 0.1) ;
+    border-left: none;
+    border-right: none;
+
+}
+.card--img{
+    
+
+}
+.data{
+    display: grid;
+    justify-content: center;
+    line-height: 1.rem;
+    margin-left: 10px;
+}
+.loctaion{
+    display: flex;
+    gap: 5px;
+   align-items: center;
+   
+}
+.loctionmarker{
+    width:10px;
+    height: 10px;
+}
+a{
+    color: gray;
+}
+.data h1{
+    margin-top: -5px;
+}
+.data p{
+    margin-top: -4px;
+
+
+}
+.date{
+    font-weight: bold;
+    
+}
